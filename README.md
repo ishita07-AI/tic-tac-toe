@@ -1,8 +1,12 @@
 Tic Tac Toe Game
-Description
+
+Description:
+
 This project implements a Tic Tac Toe game in Python with a console interface. It allows two players to play against each other in turns. The game checks for valid inputs, ensures moves are made in unoccupied spots, and evaluates the winner based on the rules of Tic Tac Toe.
 ________________________________________
-Features
+
+Features:
+
 •	Interactive Board Display: The board updates dynamically after each move.
 •	Input Validation: Ensures inputs are between 1-9 and the spot is not already occupied.
 •	Result Calculation: Determines the winner based on predefined winning conditions.
@@ -10,8 +14,11 @@ Features
 •	Game End Scenarios:
 o	Declares a winner if a player achieves 3 consecutive signs.
 o	Declares a tie if all spots are filled without a winner.
+
 ________________________________________
-How to Play
+
+How to Play:
+
 1.	Clone the repository:
 git clone <repository-url>
 2.	Navigate to the project directory:
@@ -19,8 +26,11 @@ cd tic-tac-toe
 3.	Run the program:
 python tic_tac_toe.py
 4.	Follow the instructions displayed on the screen.
+   
 ________________________________________
-Game Instructions
+
+Game Instructions:
+
 •	The game uses a 3x3 grid:
  1 | 2 | 3
 ---|---|---
@@ -31,7 +41,9 @@ Game Instructions
 •	Enter a number between 1-9 to place your sign ('X' or 'O') in the corresponding spot.
 •	The game ends when a player forms a straight line horizontally, vertically, or diagonally, or when the board is full.
 ________________________________________
-Example Console Flow
+
+Example Console Flow:
+
 Welcome to sunny's tic tac toe game.!!
 Enter player 1 name: Alice
 Enter player 2 name: Bob
@@ -67,10 +79,15 @@ Bob's turn:
 Congratulations Alice. You WON.!!
 Thank you both for joining.
 ________________________________________
-Requirements
+
+Requirements:
+
 •	Python 3.x
+
 ________________________________________
-Future Enhancements
+
+Future Enhancements:
+
 •	AI Mode: Add an AI opponent to play against.
 •	Save State Feature: Allow saving and resuming games.
 •	GUI Version: Develop a graphical interface for better usability.
